@@ -56,7 +56,7 @@
 &mt LEFT_SHIFT LEFT_BRACKET  &mt LS(LCMD) RIGHT_BRACKET  &mt LCTRL ESC  &mt LEFT_ALT TAB  &mt LCMD LANG2  &lt 1 SPACE           &lt 2 ENTER          &mt RCMD LANG1                             &mt RIGHT_SHIFT BACKSPACE
             >;
 
-            sensor-bindings = <&inc_dec_kp LG(LS(KP_PLUS)) LG(LS(MINUS))>;
+            sensor-bindings = <&inc_dec_kp LG(PLUS) LG(LS(MINUS))>;
         };
 
         sign_arrow {
@@ -87,7 +87,7 @@
 &mt LEFT_SHIFT LEFT_BRACKET  &mt LS(LCMD) RIGHT_BRACKET  &mt LCTRL ESC  &mt LEFT_ALT TAB  &mt LCMD LANG2  &lt 1 SPACE           &lt 2 ENTER          &mt RCMD LANG1                       &mt RIGHT_SHIFT BACKSPACE
             >;
 
-            sensor-bindings = <&inc_dec_kp LG(LS(KP_PLUS)) LG(LS(MINUS))>;
+            sensor-bindings = <&inc_dec_kp LG(PLUS) LG(LS(MINUS))>;
         };
 
         MOUSE {
